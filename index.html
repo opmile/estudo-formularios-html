@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>aprenda comigo!</h1>
+
+        <nav class="header-navegation">
+            <ul class="header-navegation-lista">
+                <li><a class="header-item" href="#home">home</a></li>
+                <li><a class="header-item" href="#exemplo2">exemplo2</a></li>
+                <li><a class="header-item" href="#exemplo3">exemplo3</a></li>
+                <li><a class="header-item" href="#exemplo4">exemplo4</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home-exemplo">
+            <div class="home-exemplo-apresentacao">
+                <h2 class="home-exemplo-apresentacao-titulo">Criando um formulário simples</h2>
+                <p class="home-exemplo-apresentacao-texto home-conteudo">um formulário simples possui normalmente duas tags:</p>
+                <ul class="home-exemplo-apresentacao-lista home-conteudo">
+                    <li class="home-exemplo-apresentacao-item"><strong>input</strong>: caixa de entrada de dados pelo usuário</li>
+                    <li class="home-exemplo-apresentacao-item"><strong>label</strong>: acessibilidade e usabilidade</li>
+                </ul>
+            </div>   
+            <div class="home-exemplo-form"> 
+                <div class="home-exemplo__nome">
+                    <input class="home-input-text" type="text" id="nome" placeholder="digite seu nome">
+                    <label for="nome"></label>
+                </div>
+                <div class="home-exemplo__email">
+                    <input class="home-input-text" type="email" id="email" placeholder="digite seu email">
+                    <label for="email"></label>
+                </div>  
+                <div class="home-exemplo__username">
+                    <input class="home-input-text" type="username" id="username" placeholder="digite seu username">
+                    <label for="username"></label>
+                </div> 
+                <div class="home-exemplo__envio">
+                    <input class="home-input-botao" type="button" value="enviar dados">
+                </div>
+            </div> 
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
